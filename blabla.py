@@ -5,3 +5,10 @@ def factorial(n):
         return n * factorial(n-1)
     
 print(factorial(5))
+
+def greetUser():
+    userInput = input("Enter your name")
+    return f"Hello, {userInput}"\
+
+print(greetUser()
+      )
